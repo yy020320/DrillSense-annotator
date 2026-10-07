@@ -4,6 +4,8 @@ __pycache__/
 data/
 *.wav
 *.WAV
+!examples/*.wav
+!examples/*.WAV
 *.mp3
 *.flac
 *.exe
