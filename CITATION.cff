@@ -3,9 +3,10 @@ title: "DrillSense Annotator"
 message: "If you use this software, please cite the associated paper and the released version."
 type: software
 authors:
-  - name: "DrillSense Research"
-    affiliation: "To be completed before public release"
+  - given-names: "Yiying"
+    family-names: "Zhang"
+    affiliation: "Beijing Jiaotong University"
 version: 0.1.0
-date-released: 2026-09-29
+date-released: 2026-10-07
 license: MIT
-repository-code: "https://github.com/REPLACE-ME/DrillSense-annotator"
+repository-code: "https://github.com/yy020320/DrillSense-annotator"
