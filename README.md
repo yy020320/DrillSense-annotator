@@ -41,6 +41,16 @@ Import one or more CSV annotation files:
 python src\drillsense_annotator.py --csv path\to\annotations.csv
 ```
 
+## Run the included demonstration
+
+The `examples/` folder contains a synthetic 24-second recording and matching interval labels. It contains no field recording or personal information.
+
+```powershell
+python src\drillsense_annotator.py --audio examples\demo_recording.wav --csv examples\demo_annotations.csv
+```
+
+The example covers left-boom drilling, right-boom drilling, overlapping drilling and non-operational interference. The exact interval definitions are documented in `examples/README.md`.
+
 The application stores autosave data in a local `data` directory beside the source checkout or beside the packaged executable. Do not place confidential recordings in the repository.
 
 ## Windows executable
